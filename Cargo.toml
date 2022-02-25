@@ -19,8 +19,8 @@ include = [
 
 [dependencies]
 egui = "0.16.0"
-egui-miniquad = "0.8.0"
-macroquad = { version = "0.3.6", default-features = false }
+egui-miniquad = { git = "https://github.com/nikita-skobov/clipfix-egui-miniquad" }
+macroquad = { git = "https://github.com/nikita-skobov/clipfix-macroquad" , default-features = false }
 
 [dev-dependencies]
 egui_demo_lib = { version = "0.16.0", default-features = false }
